@@ -16,7 +16,7 @@ public class SAP {
 
 	// constructor takes a digraph (not necessarily a DAG)
 	public SAP(Digraph G) {
-		this.G = G;
+		this.G = new Digraph(G);
 		size = G.V();
 	}
 
